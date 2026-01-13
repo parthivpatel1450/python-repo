@@ -1,4 +1,4 @@
-aList = ['abc', 'def', 'ghi', 'jkl']
-print("Popped Element : ", aList.pop(2))
-print("Updated List:")
-print(aList)
+list2 = [25.50, True, -55, 1+2j]
+print ("List before deleting: ", list2)
+del list2[0:2]
+print(list2)
