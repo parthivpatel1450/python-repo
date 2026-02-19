@@ -1,3 +1,17 @@
+"""Check Palindrome
+Difficulty: BasicAccuracy: 49.73%Submissions: 52K+Points: 1
+Given a string s, you need to check if it is palindrome or not. A palidrome is a string that reads the same from front and back.
+
+Note: Ignore the case in this question.
+
+Examples:
+
+Input: s = "Hello"
+Output: false
+Explanation: Hello is not equal to olleH so it's not a palindrome.
+Input: s = "TenEt"
+Output: true
+Explanation: TenEt == tEneT as we are ignoring the case."""
 def reverseString(s):
     #code here
     return s[::-1]
