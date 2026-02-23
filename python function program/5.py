@@ -1,6 +1,6 @@
 def division(num, den):
    quotient = num/den
-#    print ("num:{} den:{} quotient:{}".format(num, den, quotient))
+   print ("num:{} den:{} quotient:{}".format(num, den, quotient))
    print(f"num : {num} den : {den} quotient : {quotient}")
    
 division(num=10, den=5)
