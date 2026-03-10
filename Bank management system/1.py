@@ -1,7 +1,6 @@
 class BankManagementSystem:
 
     def __init__(self):
-        # Default users dictionary
         self.users = {
             "1001": {"password": "admin123", "balance": 1000},
             "1002": {"password": "user123", "balance": 1500}
@@ -119,6 +118,5 @@ class BankManagementSystem:
         print("Current Balance:", self.users[user_id]["balance"])
 
 
-# Run Program
 bank = BankManagementSystem()
 bank.start()
