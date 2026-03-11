@@ -1,6 +1,3 @@
-# Heap Sort
-# Source: https://www.geeksforgeeks.org/dsa/python-program-for-heap-sort/
-
 def heapify(arr, n, i):
     largest = i
     left = 2 * i + 1
