@@ -1,6 +1,3 @@
-# Radix Sort
-# Source: https://www.geeksforgeeks.org/python/python-program-for-radix-sort/
-
 def counting_sort_for_radix(arr, exp):
     n = len(arr)
     output = [0] * n
