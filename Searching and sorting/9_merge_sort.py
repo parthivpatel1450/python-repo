@@ -1,5 +1,4 @@
-# Merge Sort
-# Source: https://www.geeksforgeeks.org/python/python-program-for-merge-sort/
+
 
 def merge_sort(arr):
     if len(arr) <= 1:
