@@ -1,6 +1,3 @@
-# Iterative Merge Sort
-# Source: https://www.geeksforgeeks.org/dsa/python-program-for-iterative-merge-sort/
-
 def merge(arr, left, mid, right):
     left_part = arr[left:mid + 1]
     right_part = arr[mid + 1:right + 1]
