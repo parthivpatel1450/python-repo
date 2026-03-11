@@ -1,7 +1,3 @@
-# Bitonic Sort
-# Source: https://www.geeksforgeeks.org/python/python-program-for-bitonic-sort/
-# Works on arrays of size that is a power of 2
-
 def compare_and_swap(arr, i, j, direction):
     if (direction == 1 and arr[i] > arr[j]) or (direction == 0 and arr[i] < arr[j]):
         arr[i], arr[j] = arr[j], arr[i]
