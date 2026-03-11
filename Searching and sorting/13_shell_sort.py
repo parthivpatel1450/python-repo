@@ -1,6 +1,3 @@
-# Shell Sort
-# Source: https://www.geeksforgeeks.org/python/python-program-for-shellsort/
-
 def shell_sort(arr):
     n = len(arr)
     gap = n // 2
