@@ -1,6 +1,3 @@
-# Bubble Sort
-# Source: https://www.geeksforgeeks.org/python/python-program-for-bubble-sort/
-
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):

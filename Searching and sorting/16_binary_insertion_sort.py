@@ -1,6 +1,3 @@
-# Binary Insertion Sort
-# Source: https://www.geeksforgeeks.org/dsa/python-program-for-binary-insertion-sort/
-
 import bisect
 
 def binary_insertion_sort(arr):

@@ -1,6 +1,3 @@
-# Comb Sort
-# Source: https://www.geeksforgeeks.org/python/python-program-for-comb-sort/
-
 def comb_sort(arr):
     n = len(arr)
     gap = n

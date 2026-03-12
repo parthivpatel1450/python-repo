@@ -1,7 +1,3 @@
-# Topological Sorting
-# Source: https://www.geeksforgeeks.org/python/python-program-for-topological-sorting/
-# Topological sorting using DFS
-
 from collections import defaultdict
 
 class Graph:

@@ -1,6 +1,3 @@
-# Counting Sort
-# Source: https://www.geeksforgeeks.org/python/python-program-for-counting-sort/
-
 def counting_sort(arr):
     if not arr:
         return arr
